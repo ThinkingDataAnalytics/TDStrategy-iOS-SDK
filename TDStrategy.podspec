@@ -33,6 +33,6 @@ TODO: Add long description of the pod here.
   s.resource_bundles = {'TDStrategy' => ['TDStrategy/Resources/**/*']}
   s.vendored_frameworks = 'TDStrategy/Classes/**/*.xcframework'
 
-  s.dependency 'TDRemoteConfig', '>= 1.0.0'
+  s.dependency 'TDRemoteConfig', '1.0.0'
 
 end
