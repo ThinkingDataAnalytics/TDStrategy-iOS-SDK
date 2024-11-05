@@ -1,0 +1,42 @@
+PODS:
+  - TDRemoteConfig (1.0.0):
+    - ThinkingDataCore (>= 1.1.0)
+    - ThinkingSDK (>= 3.1.0-beta.1)
+  - TDStrategy (1.0.0):
+    - TDRemoteConfig (>= 1.0.0)
+  - ThinkingDataCore (1.1.0):
+    - ThinkingDataCore/Main (= 1.1.0)
+  - ThinkingDataCore/iOS (1.1.0)
+  - ThinkingDataCore/Main (1.1.0):
+    - ThinkingDataCore/iOS
+    - ThinkingDataCore/OSX
+  - ThinkingSDK (3.1.0-beta.1):
+    - ThinkingSDK/Main (= 3.1.0-beta.1)
+  - ThinkingSDK/iOS (3.1.0-beta.1):
+    - ThinkingDataCore (>= 1.1.0)
+  - ThinkingSDK/Main (3.1.0-beta.1):
+    - ThinkingSDK/iOS
+    - ThinkingSDK/OSX
+
+DEPENDENCIES:
+  - TDStrategy (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - TDRemoteConfig
+    - ThinkingDataCore
+    - ThinkingSDK
+
+EXTERNAL SOURCES:
+  TDStrategy:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  TDRemoteConfig: d3a58e4cffa154b54bf6c95564c474631a3ab779
+  TDStrategy: c9d82e8e260534a0293c33290d28dacf060f2c39
+  ThinkingDataCore: 95b17863c31f70c0db600a5019ffb70a76613e5f
+  ThinkingSDK: 3fc845b73d146e9b25bf5b2f597cadf41edf3cac
+
+PODFILE CHECKSUM: 6fa72aa0e6995d8a45a1328d474525305a4fa108
+
+COCOAPODS: 1.15.2

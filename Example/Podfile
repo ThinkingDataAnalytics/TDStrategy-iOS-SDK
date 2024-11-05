@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '10.0'
+
+target 'TDStrategy_Example' do
+  pod 'TDStrategy', :path => '../'
+
+  target 'TDStrategy_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
