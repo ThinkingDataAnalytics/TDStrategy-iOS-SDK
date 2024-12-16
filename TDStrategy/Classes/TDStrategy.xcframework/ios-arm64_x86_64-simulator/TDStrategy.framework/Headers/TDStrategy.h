@@ -34,6 +34,9 @@ NS_ASSUME_NONNULL_BEGIN
 + (void)setTriggerDelegate:(id<TDStrategyTriggerDelegate>)delegate;
 + (NSString *)version;
 
++ (void)addClientParams:(NSDictionary *)params;
++ (void)removeClientParam:(NSString *)key;
+
 @end
 
 NS_ASSUME_NONNULL_END

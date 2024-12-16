@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'TDStrategy'
-  s.version          = '1.0.0'
+  s.version          = '1.1.0'
   s.summary          = 'A short description of TDStrategy.'
 
 # This description is used to generate tags and improve search results.
@@ -33,6 +33,6 @@ TODO: Add long description of the pod here.
   s.resource_bundles = {'TDStrategy' => ['TDStrategy/Resources/**/*']}
   s.vendored_frameworks = 'TDStrategy/Classes/**/*.xcframework'
 
-  s.dependency 'TDRemoteConfig', '1.0.0'
+  s.dependency 'TDRemoteConfig', '1.1.0'
 
 end
