@@ -29,13 +29,38 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface TDStrategy : NSObject
 
+/// enable SDK log
 + (void)enableLog:(BOOL)enable;
-+ (void)startWithSettings:(TDStrategySettings *)settings;
-+ (void)setTriggerDelegate:(id<TDStrategyTriggerDelegate>)delegate;
-+ (NSString *)version;
 
-+ (void)addClientParams:(NSDictionary *)params;
-+ (void)removeClientParam:(NSString *)key;
+/// init SDK with settings
++ (void)startWithSettings:(TDStrategySettings *)settings;
+
+/// init SDK with appid and server url
+/// @param appId appId
+/// @param url server url
++ (void)startWithAppId:(NSString *)appId serverUrl:(NSString *)url;
+
+/// Sets the delegate of the trigger to receive callbacks for triggered events when they are triggered
++ (void)setTriggerDelegate:(id<TDStrategyTriggerDelegate>)delegate;
+
+/// SDK version string
++ (NSString *)getSDKVersion;
+
+/// update tasks from remote
++ (void)fetch;
+
+// MARK: - Deprecated
+
+/// add client params
++ (void)addClientParams:(NSDictionary *)params DEPRECATED_MSG_ATTRIBUTE("Deprecated. replace with: [TDRemoteConfig addClientParams:]");
+
+/// remove client param for key
++ (void)removeClientParam:(NSString *)key DEPRECATED_MSG_ATTRIBUTE("Deprecated. replace with: [TDRemoteConfig removeClientParam:]");
+
+/// SDK version string
++ (NSString *)version DEPRECATED_MSG_ATTRIBUTE("Deprecated. replace with: [TDStrategy getSDKVersion]");
+
+// MARK: -
 
 @end
 
