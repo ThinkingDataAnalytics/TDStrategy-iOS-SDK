@@ -250,7 +250,7 @@
 				TargetAttributes = {
 					6003F589195388D20070C39A = {
 						DevelopmentTeam = SV8R54PUAN;
-						ProvisioningStyle = Manual;
+						ProvisioningStyle = Automatic;
 					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
@@ -521,9 +521,9 @@
 			baseConfigurationReference = 699EF2126F29EB50CE1295AA /* Pods-TDStrategy_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Manual;
-				DEVELOPMENT_TEAM = "";
-				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = SV8R54PUAN;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SV8R54PUAN;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "TDStrategy/TDStrategy-Prefix.pch";
 				INFOPLIST_FILE = "TDStrategy/TDStrategy-Info.plist";
@@ -531,7 +531,6 @@
 				PRODUCT_BUNDLE_IDENTIFIER = cn.thinkingdata.ios.sdk;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
-				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = "iOS sdk example program development";
 				SWIFT_VERSION = 4.0;
 				WRAPPER_EXTENSION = app;
 			};
@@ -542,9 +541,9 @@
 			baseConfigurationReference = 84C39093D7C7E775E7079D82 /* Pods-TDStrategy_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Manual;
-				DEVELOPMENT_TEAM = "";
-				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = SV8R54PUAN;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SV8R54PUAN;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "TDStrategy/TDStrategy-Prefix.pch";
 				INFOPLIST_FILE = "TDStrategy/TDStrategy-Info.plist";
@@ -552,7 +551,6 @@
 				PRODUCT_BUNDLE_IDENTIFIER = cn.thinkingdata.ios.sdk;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
-				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = "iOS sdk example program development";
 				SWIFT_VERSION = 4.0;
 				WRAPPER_EXTENSION = app;
 			};
