@@ -208,7 +208,7 @@
 				6003F587195388D20070C39A /* Frameworks */,
 				6003F588195388D20070C39A /* Resources */,
 				59511B574554D6E1A7EC5D42 /* [CP] Embed Pods Frameworks */,
-				A5FB4F9F3EFA233EC78D28DB /* [CP] Copy Pods Resources */,
+				F3AD90E5A66CD7CE9E60B4F7 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -342,7 +342,7 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TDStrategy_Example/Pods-TDStrategy_Example-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		A5FB4F9F3EFA233EC78D28DB /* [CP] Copy Pods Resources */ = {
+		F3AD90E5A66CD7CE9E60B4F7 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (

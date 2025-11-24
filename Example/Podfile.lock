@@ -1,22 +1,22 @@
 PODS:
-  - TDRemoteConfig (1.2.0):
-    - ThinkingSDK (= 3.1.0)
-  - TDStrategy (1.2.0):
-    - TDRemoteConfig (= 1.2.0)
-  - ThinkingDataCore (1.2.1):
-    - ThinkingDataCore/Main (= 1.2.1)
-  - ThinkingDataCore/iOS (1.2.1)
-  - ThinkingDataCore/Main (1.2.1):
+  - TDRemoteConfig (1.2.1):
+    - ThinkingSDK (= 3.1.6)
+  - TDStrategy (1.2.1):
+    - TDRemoteConfig (= 1.2.1)
+  - ThinkingDataCore (1.2.3):
+    - ThinkingDataCore/Main (= 1.2.3)
+  - ThinkingDataCore/iOS (1.2.3)
+  - ThinkingDataCore/Main (1.2.3):
     - ThinkingDataCore/iOS
     - ThinkingDataCore/OSX
     - ThinkingDataCore/tvOS
     - ThinkingDataCore/versionOS
     - ThinkingDataCore/watchOS
-  - ThinkingSDK (3.1.0):
-    - ThinkingSDK/Main (= 3.1.0)
-  - ThinkingSDK/iOS (3.1.0):
-    - ThinkingDataCore (= 1.2.1)
-  - ThinkingSDK/Main (3.1.0):
+  - ThinkingSDK (3.1.6):
+    - ThinkingSDK/Main (= 3.1.6)
+  - ThinkingSDK/iOS (3.1.6):
+    - ThinkingDataCore (= 1.2.3)
+  - ThinkingSDK/Main (3.1.6):
     - ThinkingSDK/iOS
     - ThinkingSDK/OSX
 
@@ -34,10 +34,10 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  TDRemoteConfig: 0d07c5d0909ae79d96bc264ed020218e55f41326
-  TDStrategy: b5e98bfed718ed3e822984959a4d3d2629d58579
-  ThinkingDataCore: a9af2a3c645c928f6555dbfb447f9c89381976d9
-  ThinkingSDK: 55612adb5d90fac6c1ea0a9c8651b619cb86f5fe
+  TDRemoteConfig: afa159299f6d6dcc5785b3a5fc15690af8e076c9
+  TDStrategy: b8357ec8c7f07244bb82326f7e5c74858083cbd4
+  ThinkingDataCore: e87a6061d82d138d8b770d04cc84521547563884
+  ThinkingSDK: ccc9a8a901e2fb98a8e8b41e5084b8ab4a4c82ca
 
 PODFILE CHECKSUM: 6fa72aa0e6995d8a45a1328d474525305a4fa108
 
