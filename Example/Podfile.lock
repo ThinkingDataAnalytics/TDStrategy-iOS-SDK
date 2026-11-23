@@ -1,8 +1,8 @@
 PODS:
-  - TDRemoteConfig (1.2.1):
+  - TDRemoteConfig (1.3.3):
     - ThinkingSDK (= 3.1.6)
-  - TDStrategy (1.2.1):
-    - TDRemoteConfig (= 1.2.1)
+  - TDStrategy (1.4.3):
+    - TDRemoteConfig (= 1.3.3)
   - ThinkingDataCore (1.2.3):
     - ThinkingDataCore/Main (= 1.2.3)
   - ThinkingDataCore/iOS (1.2.3)
@@ -34,11 +34,11 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  TDRemoteConfig: afa159299f6d6dcc5785b3a5fc15690af8e076c9
-  TDStrategy: b8357ec8c7f07244bb82326f7e5c74858083cbd4
+  TDRemoteConfig: cb291f4dadd412093bf6b4a1b737cd79ecc16bb1
+  TDStrategy: 87d383770756d51f4290cf0d06e4e2fd972c7744
   ThinkingDataCore: e87a6061d82d138d8b770d04cc84521547563884
   ThinkingSDK: ccc9a8a901e2fb98a8e8b41e5084b8ab4a4c82ca
 
 PODFILE CHECKSUM: 6fa72aa0e6995d8a45a1328d474525305a4fa108
 
-COCOAPODS: 1.16.2
+COCOAPODS: 1.17.0
